@@ -1,0 +1,26 @@
+name: التحقق من شبكة البرامج
+
+on:
+  push:
+    paths:
+      - 'schedule.json'
+      - 'validate_schedule.py'
+  pull_request:
+    paths:
+      - 'schedule.json'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: جلب الملفات
+        uses: actions/checkout@v4
+
+      - name: تهيئة Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: فحص schedule.json
+        run: python validate_schedule.py schedule.json
