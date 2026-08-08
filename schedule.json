@@ -1,0 +1,71 @@
+{
+  "_readme": "استبدل البرامج أدناه بالشبكة الحقيقية للإذاعة. الأمثلة الموجودة مقصودة: كل واحد منها يغطي حالة مختلفة (كتلة أيام العمل، برنامج نصف ساعة يومي، برنامج نهاية أسبوع، برنامج يعبر منتصف الليل) لتتأكد أن النموذج يستوعب جدولك الفعلي قبل بناء لوحة الإدارة. أيام الأسبوع: sun mon tue wed thu fri sat. الأوقات بصيغة 24 ساعة HH:mm بتوقيت بغداد.",
+  "version": 1,
+  "updatedAt": "2026-08-08T12:00:00+03:00",
+  "timeZone": "Asia/Baghdad",
+  "utcOffsetHours": 3,
+
+  "programs": [
+    {
+      "id": "sabah-alawael",
+      "name": "صباح الأوائل",
+      "host": "اسم المقدّم",
+      "description": "برنامج صباحي منوّع يفتح يومك بالأخبار والمنوعات والضيوف.",
+      "image": "",
+      "isActive": true,
+      "slots": [
+        { "days": ["sun", "mon", "tue", "wed", "thu"], "start": "08:00", "end": "10:00" }
+      ]
+    },
+    {
+      "id": "nashra-akhbar",
+      "name": "نشرة الأخبار",
+      "host": "",
+      "description": "موجز الأخبار المحلية والعربية.",
+      "image": "",
+      "isActive": true,
+      "slots": [
+        { "days": ["sun", "mon", "tue", "wed", "thu", "fri", "sat"], "start": "12:00", "end": "12:30" }
+      ]
+    },
+    {
+      "id": "diwan-alawael",
+      "name": "ديوان الأوائل",
+      "host": "اسم المقدّم",
+      "description": "برنامج ثقافي أسبوعي مع نخبة من الضيوف.",
+      "image": "",
+      "isActive": true,
+      "slots": [
+        { "days": ["fri", "sat"], "start": "20:00", "end": "22:00" }
+      ]
+    },
+    {
+      "id": "sahar",
+      "name": "سهرة الأوائل",
+      "host": "اسم المقدّم",
+      "description": "برنامج مسائي يمتد إلى ما بعد منتصف الليل.",
+      "image": "",
+      "isActive": true,
+      "slots": [
+        { "days": ["thu", "fri"], "start": "23:00", "end": "01:00" }
+      ]
+    }
+  ],
+
+  "overrides": [
+    {
+      "date": "2026-08-17",
+      "type": "cancelled",
+      "programId": "sabah-alawael",
+      "note": "عطلة رسمية"
+    },
+    {
+      "date": "2026-08-20",
+      "type": "special",
+      "programId": "diwan-alawael",
+      "start": "10:00",
+      "end": "12:00",
+      "note": "حلقة خاصة"
+    }
+  ]
+}
