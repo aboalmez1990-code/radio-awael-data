@@ -40,6 +40,17 @@
       ]
     },
     {
+      "id": "munawaat",
+      "name": "منوعات الأوائل",
+      "host": "",
+      "description": "فاصل منوعات وأغانٍ بين البرامج.",
+      "image": "",
+      "isActive": true,
+      "slots": [
+        { "days": ["sun","mon","tue","wed","thu","fri","sat"], "start": "12:30", "end": "20:00" }
+      ]
+    },
+    {
       "id": "sahar",
       "name": "سهرة الأوائل",
       "host": "اسم المقدّم",
