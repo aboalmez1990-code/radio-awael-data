@@ -1,20 +1,5 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T16:46:20\u002B03:00",
-  "items": [
-    {
-      "id": "p20260904164550",
-      "text": "\u0627\u0628\u0627\u0628\u0644\u0627\u0644\u0628",
-      "createdAt": "2026-09-04T12:00:00\u002B03:00",
-      "permalink": "https://web.facebook.com/share/p/19LtLJHQiX/",
-      "kind": "photo",
-      "images": [
-        "images/posts/p20260904164550_20260904164603478_0.jpg",
-        "images/posts/p20260904164550_20260904164603489_1.jpg",
-        "images/posts/p20260904164550_20260904164603495_2.jpg"
-      ],
-      "videoThumb": null,
-      "isActive": true
-    }
-  ]
+  "updatedAt": "2026-09-04T16:49:08\u002B03:00",
+  "items": []
 }
