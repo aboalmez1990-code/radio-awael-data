@@ -1,7 +1,21 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T15:56:14\u002B03:00",
+  "updatedAt": "2026-09-04T16:18:23\u002B03:00",
   "items": [
+    {
+      "id": "p20260904161721",
+      "text": "\u0645\u0648\u0644\u062F \u0627\u0644\u0646\u0628\u0648\u064A \u0627\u0644\u0634\u0631\u064A\u0641",
+      "createdAt": "2026-09-04T12:00:00\u002B03:00",
+      "permalink": "https://web.facebook.com/share/p/19LtLJHQiX/",
+      "kind": "photo",
+      "images": [
+        "images/posts/p20260904161721_20260904161802530_0.jpg",
+        "images/posts/p20260904161721_20260904161802541_1.jpg",
+        "images/posts/p20260904161721_20260904161802546_2.jpg"
+      ],
+      "videoThumb": null,
+      "isActive": true
+    },
     {
       "id": "p20260904155254",
       "text": "\u0644\u0644\u062A\u0648\u0627\u0635\u0644 \u0645\u0639\u0646\u0627 07710975975 - 07750975975",
