@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T15:47:23\u002B03:00",
+  "updatedAt": "2026-09-04T15:48:38\u002B03:00",
   "items": [
     {
       "id": "p20260904154616",
@@ -10,7 +10,7 @@
       "kind": "video",
       "images": [],
       "videoThumb": "images/posts/p20260904154616_20260904154702055_0.jpg",
-      "isActive": true
+      "isActive": false
     }
   ]
 }
